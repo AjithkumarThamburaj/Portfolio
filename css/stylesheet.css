@@ -578,6 +578,87 @@ section .title::after {
         background: none;
     }
 
+.projects {
+    color: #fff;
+    background: #111;
+}
+
+.projects .title::before {
+    background: #fff;
+}
+
+.projects .title::after {
+    background: #111;
+    content: "what i built";
+}
+
+.projects .serv-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects .serv-content .card {
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projects .serv-content .card:hover {
+    background: #ff6a00;
+}
+
+.projects .serv-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.projects .serv-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.projects .serv-content .card i {
+    font-size: 50px;
+    color: #ff6a00;
+    transition: color 0.3s ease;
+}
+
+.projects .serv-content .card:hover i {
+    color: #fff;
+}
+
+.projects .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.projects .serv-content .card p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.projects .serv-content .card .visit-btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #ff6a00;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.projects .serv-content .card:hover .visit-btn {
+    background: #fff;
+    color: #111;
+}
+
 footer {
     background: #111;
     padding: 15px 23px;
