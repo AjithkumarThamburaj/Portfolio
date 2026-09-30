@@ -1,317 +1,369 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link href="fontawesome-free-6.1.2-web/css/all.min.css" rel="stylesheet" />
+    <title>Ajithkumar T | Tekla Structures API &amp; C# / .NET Developer</title>
+    <meta name="description" content="Ajithkumar T — Software Developer in Coimbatore building Tekla Structures Open API automation, C# / .NET desktop tools, and PHP business applications for structural steel detailing and fabrication.">
+    <meta name="author" content="Ajithkumar T">
+    <meta property="og:title" content="Ajithkumar T | Tekla Structures API &amp; C# / .NET Developer">
+    <meta property="og:description" content="3+ years building Tekla Open API automation, QA/QC checkers and NC/DSTV exporters in C# and .NET.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Images/Profile.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <link href="css/stylesheet.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="Scripts/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#">Resu<span>me</span></a></div>
-            <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#experience" class="menu-btn">Experience</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#projects" class="menu-btn">Projects</a></li>
-                <li><a href="#education" class="menu-btn">Education</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Ajithkumar</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-            </div>
+    <header class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#home" class="logo">Ajithkumar<span>.T</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="menu" id="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets/Ajithkumar_T_Resume.pdf" class="btn btn-small" download>Résumé</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="Images/Profile.jpg" />
-                </div>
-                <div class="column right">
-                    <div class="text">I'm Ajith and I'm a <span class="typing-2"></span></div>
-                    <p>
-                        I am a highly competent IT professional with a proven track record in designing websites, networking and managing databases.
-                        I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients.
-                        I am eager to be challenged in order to grow and further improve my IT skills.
-                        My greatest passion is in life is using my technical know-how to benefit other people and organisations.
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="eyebrow"><span class="status-dot"></span> Open to new opportunities</p>
+                    <h1>Ajithkumar T</h1>
+                    <p class="hero-role"><b>Tekla Structures API Developer</b> <span>|</span> <b>C# / .NET Developer</b></p>
+                    <p class="hero-summary">
+                        I build Tekla Structures Open API automation for structural steel detailing and fabrication:
+                        QA/QC checkers, NC/DSTV/KISS exporters and shop-floor reporting tools in C# and .NET.
                     </p>
-                    <a href="#">Download CV</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="experience" id="experience">
-        <div class="max-width">
-            <h2 class="title">Experience</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>A crisp, clear, and elegant UX design and sophisticated workflow serve to foster user intimacy and loyalty. </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn">View my work</a>
+                        <a href="assets/Ajithkumar_T_Resume.pdf" class="btn btn-outline" download><i class="fas fa-download"></i> Download résumé</a>
+                    </div>
+                    <div class="hero-links">
+                        <a href="https://github.com/AjithkumarThamburaj" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:ajithaji961@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <span class="location"><i class="fas fa-location-dot"></i> Coimbatore, India</span>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-users-between-lines"></i>
-                        <div class="text">Market Reassignment</div>
+                <div class="hero-photo">
+                    <img src="Images/Profile.jpg" alt="Portrait of Ajithkumar T" width="288" height="288">
+                </div>
+            </div>
+
+            <div class="container">
+                <ul class="stats">
+                    <li><strong>3+</strong><span>Years in software development</span></li>
+                    <li><strong>31K</strong><span>Lines of C# in my Tekla automation suite</span></li>
+                    <li><strong>48</strong><span>Production forms shipped</span></li>
+                    <li><strong>VB.NET&nbsp;→&nbsp;C#</strong><span>Full codebase migration I led</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title"><span>01</span> About</h2>
+                <div class="about-grid">
+                    <div class="about-text">
                         <p>
-                            My job responsibility is to manipulate the details of consumers for Dex media & Yellow
-                            Pages[Feb-2019 – July-2022].
+                            I'm a software developer at <strong>Struzon Technologies</strong> in Coimbatore. I work mostly
+                            on engineering automation for structural steel. I designed and built <strong>Struzon API Tools</strong>,
+                            a C# fabrication automation suite of about 31,000 lines. I also built a <strong>drawing-to-model QA engine</strong>
+                            that checks PDF structural drawings against the live Tekla model.
+                        </p>
+                        <p>
+                            My work covers the full stack, from database schema and backend logic to UI and deployment.
+                            Beyond .NET, I build business modules in PHP / CodeIgniter and administer the company's Linux
+                            servers and KVM virtualization.
+                        </p>
+                        <p>
+                            I moved into development from enterprise data operations. That background taught me to care
+                            about accuracy and validation, which is why so much of my work is QA tooling.
                         </p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-magnet"></i>
-                        <div class="text">Motor Testing</div>
-                        <p>
-                            Worked in a “Motor Testing Department”, in SMP, Nehru Nagar, Coimbatore.
-                            [June 2014-Dec 2014].
-                        </p>
+                    <div class="about-card">
+                        <h3>What I bring</h3>
+                        <ul class="check-list">
+                            <li>Tekla Open API plugins, macros &amp; exporters</li>
+                            <li>C# / .NET desktop apps (WinForms, WPF, MVVM)</li>
+                            <li>PDF parsing, OCR &amp; Excel report generation</li>
+                            <li>PHP / MySQL web applications</li>
+                            <li>Linux, Docker &amp; KVM administration</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--</div>-->
-    </section>
+        </section>
 
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">My skills</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>
-                        I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients.
-                        I am eager to be challenged in order to grow and further improve my IT skills.
-                        My greatest passion is in life is using my technical know-how to benefit other people and organisations
-                    </p>
-                    <a href="#">Read more</a>
-                </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
+        <!-- EXPERIENCE -->
+        <section class="section section-alt" id="experience">
+            <div class="container">
+                <h2 class="section-title"><span>02</span> Experience</h2>
+
+                <div class="timeline">
+                    <article class="job">
+                        <div class="job-head">
+                            <div>
+                                <h3>Software Developer</h3>
+                                <p class="company">Struzon Technologies Pvt Ltd · Coimbatore</p>
+                            </div>
+                            <span class="date">Sep 2023 – Present</span>
                         </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>80%</span>
+
+                        <h4>Tekla &amp; Engineering Automation</h4>
+                        <ul>
+                            <li>Designed and built <strong>Struzon API Tools</strong> (~31K lines, ~48 forms), then migrated the whole codebase from legacy VB.NET to C# on the Tekla 2025 API.</li>
+                            <li>Built a <strong>Structural Drawing QA tool</strong> (~9K lines) that compares PDF drawings with the live Tekla model for grids, column locations, profiles and plan orientation.</li>
+                            <li>Maintained the <strong>KISS/MIS NC exporter</strong>. Fixed part-position duplication on channel profiles, sheet-gauge vs. plate classification, and circular-contour hole sizing.</li>
+                            <li>Built a <strong>Prefix QA Checker</strong> plugin. Stopped a UI freeze by moving a blocking Tekla API call onto a background STA thread with a timeout.</li>
+                            <li>Delivered a WPF Part Data Exporter, Imperial Hole Tolerance Checker, GridScheduler and Bolt Summary tool. Wrote Python scripts against the <strong>SDS2 API</strong>.</li>
+                        </ul>
+
+                        <h4>Business Applications: EMS Portal (PHP / CodeIgniter 3)</h4>
+                        <ul>
+                            <li>Built a <strong>Candidate Referral</strong> module from scratch: 5-table schema, resume parsing with pdftotext and Tesseract OCR, and role-based access.</li>
+                            <li>Built an <strong>RFI Tracker</strong> with AJAX filters and Excel export. Replaced hardcoded role logic with a database-driven team-manager mapping.</li>
+                            <li>Extended Conference Room Booking (FullCalendar dashboard, conflict highlighting) and automated review-reminder emails with cron.</li>
+                        </ul>
+
+                        <h4>Linux Infrastructure &amp; Virtualization</h4>
+                        <ul>
+                            <li>Led the rebuild of the company mail server on <strong>Mailcow (Docker) / Rocky Linux 9</strong> after a ransomware incident, including DNS/MX, firewall NAT and send policy.</li>
+                            <li>Administer a <strong>KVM hypervisor</strong> (Dell PowerEdge R740, 80 vCPUs, 125 GB RAM) that hosts the CRM, a Docker/PostgreSQL UAT environment and other VMs.</li>
+                            <li>Maintain Samba file servers and Mattermost, including a staged upgrade from v9.7 to v10.11 ESR.</li>
+                        </ul>
+
+                        <div class="tags">
+                            <span>C#</span><span>VB.NET</span><span>Tekla Open API</span><span>WinForms</span><span>WPF</span><span>Python</span><span>PHP</span><span>MySQL</span><span>Linux</span><span>Docker</span>
                         </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>70%</span>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <div>
+                                <h3>Full-Stack .NET Trainee</h3>
+                                <p class="company">Knila IT Solutions · Coimbatore</p>
+                            </div>
+                            <span class="date">2022 – 2023</span>
                         </div>
-                        <div class="line js"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>C#</span>
-                            <span>70%</span>
+                        <ul>
+                            <li>Completed full-stack training in C#, ASP.NET MVC, SQL Server and Angular, building web applications end to end.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>C#</span><span>ASP.NET MVC</span><span>Angular</span><span>SQL Server</span>
                         </div>
-                        <div class="line C"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MSSQL</span>
-                            <span>75%</span>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <div>
+                                <h3>Process Executive</h3>
+                                <p class="company">Personiv</p>
+                            </div>
+                            <span class="date">Feb 2019 – Jul 2022</span>
                         </div>
-                        <div class="line mssql"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MVC</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line mvc"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>ASP.NET</span>
-                            <span>82%</span>
-                        </div>
-                        <div class="line asp"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Angular</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line angular"></div>
-                    </div>
-                    
+                        <ul>
+                            <li>Processed large-scale enterprise data on Salesforce and ACRM while meeting SLA, accuracy and compliance targets.</li>
+                        </ul>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="projects" id="projects">
-        <div class="max-width">
-            <h2 class="title">My Projects</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-drafting-compass"></i>
-                        <div class="text">StructMark</div>
-                        <p>
-                            An offline Windows desktop tool for reviewing structural steel drawing PDFs -
-                            markup, OCR-based data extraction, revision comparison, automatic cross-sheet
-                            linking and a Tekla OpenAPI bridge. Built with WPF and .NET 8.
-                        </p>
-                        <a class="visit-btn" href="https://github.com/AjithkumarThamburaj/StructMark" target="_blank" rel="noopener">View on GitHub</a>
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title"><span>03</span> Featured Projects</h2>
+
+                <div class="projects-grid">
+                    <article class="project">
+                        <div class="project-top">
+                            <i class="fas fa-industry"></i>
+                            <span class="badge">Production · Struzon</span>
+                        </div>
+                        <h3>Struzon API Tools</h3>
+                        <p class="project-sub">Steel fabrication automation suite</p>
+                        <ul>
+                            <li>~48 forms across 3 tool shells that turn Tekla and SDS2 exports into shop-ready Excel deliverables: BOMs, buy lists, nesting, shipping and galvanizing reports.</li>
+                            <li>Direct Tekla API export of DSTV/NC, DXF and KISS files, with automatic renaming by assembly mark.</li>
+                            <li>PDF toolkit (iText 8, PdfPig) for batch renaming and spell-checking drawing sets.</li>
+                            <li>SQLite tracking layer, machine-locked AES-256 licensing and a built-in self-test CLI.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>C#</span><span>.NET 4.8</span><span>WinForms</span><span>Tekla API 2025</span><span>SQLite</span>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-top">
+                            <i class="fas fa-magnifying-glass-chart"></i>
+                            <span class="badge">Production · Struzon</span>
+                        </div>
+                        <h3>Drawing ↔ Model QA Tool</h3>
+                        <p class="project-sub">Automated check of PDF drawings against the Tekla model</p>
+                        <ul>
+                            <li>Extraction pipeline that merges native PDF text, vector geometry and OCR fallback into one drawing model, tracking confidence and source for each value.</li>
+                            <li>Detects grids and parses imperial dimensions (e.g. 33'-0") to millimetres.</li>
+                            <li>Live Tekla sync that classifies each check as PASS / FAIL / REVIEW / NOT MATCHED.</li>
+                            <li>Tiled PDF viewer with overlays, CSV exports and 32 automated self-tests.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>C#</span><span>Tekla Open API</span><span>PdfPig</span><span>Pdfium</span><span>Tesseract OCR</span>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-top">
+                            <i class="fas fa-compass-drafting"></i>
+                            <span class="badge badge-open">Open source</span>
+                        </div>
+                        <h3>StructMark</h3>
+                        <p class="project-sub">Offline structural drawing review &amp; extraction</p>
+                        <ul>
+                            <li>Bluebeam-style markup toolset, scale calibration and measurement on structural PDFs.</li>
+                            <li>Revision comparison, automatic cross-sheet linking and annotated PDF export.</li>
+                            <li>Offline OCR and rule-based parsing, with a bridge to Tekla Structures through the Open API.</li>
+                            <li>Clean layered architecture (Domain / Application / Infrastructure / UI) with MVVM and NUnit tests.</li>
+                        </ul>
+                        <div class="tags">
+                            <span>.NET 8</span><span>WPF</span><span>MVVM</span><span>SQLite</span><span>NUnit</span>
+                        </div>
+                        <a class="project-link" href="https://github.com/AjithkumarThamburaj/StructMark" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i> View source on GitHub <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <h2 class="section-title"><span>04</span> Technical Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <h3><i class="fas fa-code"></i> Languages</h3>
+                        <div class="tags">
+                            <span class="primary">C#</span><span>VB.NET</span><span>Python</span><span>SQL</span><span>PHP</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3><i class="fas fa-layer-group"></i> .NET</h3>
+                        <div class="tags">
+                            <span class="primary">.NET 8</span><span>.NET Framework 4.8</span><span class="primary">WPF</span><span>WinForms</span><span>MVVM</span><span>ASP.NET MVC</span><span>Multithreading</span><span>NUnit</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3><i class="fas fa-building"></i> Engineering APIs</h3>
+                        <div class="tags">
+                            <span class="primary">Tekla Structures Open API</span><span>Tekla Plugins &amp; Akit Macros</span><span>SDS2 API</span><span>AutoCAD / AutoLISP</span><span>DSTV / NC</span><span>DXF</span><span>KISS</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3><i class="fas fa-file-pdf"></i> PDF, OCR &amp; Reporting</h3>
+                        <div class="tags">
+                            <span>PdfPig</span><span>iText 8</span><span>Pdfium</span><span>Tesseract OCR</span><span>ClosedXML</span><span>EPPlus</span><span>OpenXML</span><span>NPOI</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3><i class="fas fa-database"></i> Databases</h3>
+                        <div class="tags">
+                            <span class="primary">SQL Server</span><span>MySQL / MariaDB</span><span>PostgreSQL</span><span>SQLite</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3><i class="fas fa-globe"></i> Web</h3>
+                        <div class="tags">
+                            <span>CodeIgniter 3</span><span>Angular</span><span>HTML / CSS</span><span>Bootstrap</span><span>jQuery / AJAX</span><span>Chart.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3><i class="fas fa-server"></i> Infrastructure</h3>
+                        <div class="tags">
+                            <span class="primary">Linux (Rocky, Alma, Ubuntu)</span><span>Docker</span><span>KVM / QEMU / libvirt</span><span>Samba</span><span>DNS</span><span>Active Directory</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3><i class="fas fa-screwdriver-wrench"></i> Tools</h3>
+                        <div class="tags">
+                            <span>Git</span><span>GitHub</span><span>Visual Studio</span><span>VS Code</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="education" id="education">
-        <div class="max-width">
-            <h2 class="title">Education</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="Images/Studyworld.jpg" alt="">
-                        <div class="text">6.7 CGPA</div>
-                        <p>
-                            Study world college of engineering,
-                            Coimbatore.<br />
-                            2018
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="Images/GPTC.jpg" alt="">
-                        <div class="text">67%</div>
-                        <p>
-                            Govt Polytechnic College,
-                            Coimbatore<br />
-                            2014
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="Images/VCV.jpg" alt="">
-                        <div class="text">86%</div>
-                        <p>Thiru VCV Govt higher secondary School<br />
-                        2011</p>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>
-                        I hope to have the opportunity to speak with you further.
-
-                    </p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Ajithkumar</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Coimbatore</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">ajithaji961@gmail.com</div>
-                            </div>
+        <!-- EDUCATION -->
+        <section class="section" id="education">
+            <div class="container">
+                <h2 class="section-title"><span>05</span> Education</h2>
+                <div class="edu-grid">
+                    <div class="edu">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h3>Bachelor of Engineering, Electronics &amp; Communication</h3>
+                            <p>Study World College of Engineering, Coimbatore</p>
+                            <span class="date">2018</span>
                         </div>
                     </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Message me</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
+                    <div class="edu">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h3>Diploma, Electronics &amp; Communication</h3>
+                            <p>Government Polytechnic College, Coimbatore</p>
+                            <span class="date">2014</span>
                         </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button type="submit">Send message</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <span> <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+        <!-- CONTACT -->
+        <section class="section contact" id="contact">
+            <div class="container contact-inner">
+                <h2 class="section-title center"><span>06</span> Let's work together</h2>
+                <p class="contact-lead">
+                    I'm looking for C# / .NET, Tekla API or engineering-automation roles.
+                    If you're hiring, I'd be glad to hear from you.
+                </p>
+                <a href="mailto:ajithaji961@gmail.com" class="btn btn-large"><i class="fas fa-envelope"></i> ajithaji961@gmail.com</a>
+                <div class="contact-links">
+                    <a href="https://github.com/AjithkumarThamburaj" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="assets/Ajithkumar_T_Resume.pdf" download><i class="fas fa-file-arrow-down"></i> Résumé (PDF)</a>
+                    <span><i class="fas fa-location-dot"></i> Coimbatore, Tamil Nadu</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span>© <span id="year">2026</span> Ajithkumar T</span>
+            <span>Built with HTML, CSS &amp; JavaScript</span>
+        </div>
     </footer>
-    <script>
-        var typed = new Typed(".typing", {
-            strings: ["Developer", "Designer", "Engineer"],
-            typeSpeed: 100,
-            backSpeed: 60,
-            loop: true
-        });
-        var typed = new Typed(".typing-2", {
-            strings: ["Developer", "Designer", "Engineer"],
-            typeSpeed: 100,
-            backSpeed: 60,
-            loop: true
-        });
-    </script>
+
+    <button id="toTop" class="to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
     <script src="js/script.js"></script>
 </body>
 </html>
-
-
-
-
